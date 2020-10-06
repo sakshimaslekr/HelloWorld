@@ -1,1 +1,17 @@
-hello
+#include<iostream.h>
+using namespace std;
+
+int main()
+{
+int i;
+static int j;
+ void fun();
+ for(i=0;i<5;i++)
+ {
+ fun();
+ }
+ 
+ void fun()
+ {
+ cout<<"Its fun fuction.";endl;
+ cout<<"Its nice to use c++";
