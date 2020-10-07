@@ -1,2 +1,22 @@
-print("hello world")
-print("i m from GECA")
+
+
+#include<iostream.h>
+using namespace std;
+
+int main()
+{
+int i;
+static int j;
+ void fun();
+ for(i=0;i<5;i++)
+ fun();
+ return 0;
+ }
+ 
+ void fun()
+ {
+ cout<<"Its fun fuction.";endl;
+ cout<<"Its nice to use c++";
+ cout<<"hello world";
+ }
+
